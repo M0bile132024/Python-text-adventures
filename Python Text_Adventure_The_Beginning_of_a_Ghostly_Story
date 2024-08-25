@@ -6,7 +6,7 @@ while start != "yes":
     print("You leave it. You come across a bear. The bear kills you cause you didn't have any weapons. Try again.")
     start = input("Your adventure starts. You leave your hometown and head to the woods. You come across a bag. Do you take it?")
 start2 = input("You take it and you find an sword and a viking helmet. You go deeper into the forest and you find a bear. Do you kill it?")
-start3 = input("You kill it anyway and you take its teeth and flesh. The woods are on a mountain and soon you find an abandoned mountain shack. Do you search the house?")
+start3 = input("You kill it anyway and you take its teeth and flesh. The woods are on This Mountain and soon you find an abandoned mountain shack. Do you search the house?")
 while start3 != "yes":
     print("You left. You slipped on some ice and broke your back and died. Try again.")
     start3 = input("You kill it and you take its teeth and flesh. You go deeper into the woods and you find an abandoned mountain shack. Do you search the house?")

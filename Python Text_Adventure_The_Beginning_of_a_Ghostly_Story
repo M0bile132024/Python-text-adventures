@@ -1,0 +1,49 @@
+name = input("What's your username:")
+print("Welcome to Text Adventure", name,".Your answers will have to be yes or no.Some will have slightly different answers.But Anyway,your task:Find treasure using this map 🗺️and make your family rich ")
+
+start = input("Your adventure begins. You leave your hometown,Adventure Bay,and head to the Deep,Dark Woods. You come across a bag. Do you take it?")
+while start != "yes":
+    print("You leave it. You come across a bear. The bear kills you cause you didn't have any weapons. Try again.")
+    start = input("Your adventure starts. You leave your hometown and head to the woods. You come across a bag. Do you take it?")
+start2 = input("You take it and you find an sword and a viking helmet. You go deeper into the forest and you find a bear. Do you kill it?")
+start3 = input("You kill it anyway and you take its teeth and flesh. The woods are on a mountain and soon you find an abandoned mountain shack. Do you search the house?")
+while start3 != "yes":
+    print("You left. You slipped on some ice and broke your back and died. Try again.")
+    start3 = input("You kill it and you take its teeth and flesh. You go deeper into the woods and you find an abandoned mountain shack. Do you search the house?")
+mid = input("While you search the shack you find a fire.You cook the meat turning it into steak. You aslo find a cake. Do you eat the cake?")
+while mid != "no":
+    print("It's mouldy,duh! You died. Try again.")
+    mid = input("While you search the shack you find a fire.You cook the meat turning it into steak. You aslo find a cake. Do you eat the cake?")
+mid1 = input("You don't eat the cake but you eat the steak. Oh it was deilicous. You are about to leave the shack when a random snow dude stops you.He offers you to come into his shack to rest. Do you follow?")
+while mid1 != "no":
+    print("You enter and fall asleep. Then he feeds you drugs while you were sleeping. Try again.")
+    mid1 = input("You don't eat the cake but you eat the steak. Oh it was deilicous. You are about to leave the shack when a random snow dude stops you.He offers you to come into his shack to rest. Do you follow?")
+end = input("You find a manision with a sign that clearly saids 'KEEP OUT!OR ESLE!!!!!!!!'. You go inside. You are facing two doors. Do you go in the first door?")
+while end != "yes":
+    print("You go inside the second door but https://www.youtube.com/watch?v=fcZXfoB2f70 was waiting for you. You died. Try again.")
+    end = input("You find a manision with a sign that clearly saids 'KEEP OUT!OR ESLE!!!!!!!!'. You go inside. You are facing two doors. Do you go in the first door?")
+end2 = input("You go inside. There is a riddle. It says (Before Mount Everest was discovered, what was the highest mountain on Earth?).For this question,type two words with capital. Hint:What mountains are in the text.")
+while end2 != "This mountain":  
+    print("Wrong answer try again.")
+    end2 = input("You go inside. There is a riddle. It says (Before Mount Everest was discovered, what was the highest mountain on Earth?).For this question,type two words. Hint:What mountains are in the text.")
+end3 = input("A door opens. You see a chest with gold,emerands,and most importantly ,minecraft diamonds(Made out of paper , which you don't realise). But a trapdoor opens.You land in a dungeon.There is a torch unlight.Do you take it?")
+while end3 == "yes":
+    print("it was attacthed to a tripwire which sends arrows at you.Try again")
+    end3 = input("A door opens. You see a chest with gold,emerands,and most importantly ,minecraft diamonds(Made out of paper , which you don't realise). But a trapdoor opens.You land in a dungeon.There is a torch unlight.Do you take it?")
+end4 = input("You contine.You find a prisioner who will offer you diamonds if you get him out of the dungeon.Do you trust him?")
+while end4 == "no":
+    print("You leave him there to starve.As you walk a ghost pops out and kills you.You died.Try again")
+    end4 = input("You contine.You find a prisioner who will offer you diamonds if you get him out of the dungeon.Do you trust him?")
+end5 = input("He is delighted but warns you that ghosts with knives roam the next few hallways.You decide to distract the ghost by throwing either A.your helmet, B.your bloodstained sword or C.the bag(type one of the letters CAPITAL)")
+while end5 == "A" or end5 == "C" or end5 == "a" or end5 == "c":
+    print("The ghost ingore it and go and kill you.You died.Try again")
+    end5 = input("He is delighted but warns you that ghosts with knives roam the next few hallways.You decide to distract the ghost by throwing either A.your helmet, B.your bloodstained axe or C.the backpack(type one of the letters CAPITAL)")
+print("The ghost love blood.They go surround the sword and you drag the prisioner past the ghost.Your now facing a wall with a passage to your left(Keeping in mind that the ghost can still hear you)")
+end6 = input("The prisioner says that we have to explode this wall with this explosive he has.Do you trust him or do you contine down the passage")
+while end6 == "no":
+    print("You walk down the passage to meet some more prisioners.But they make too much noise and the ghost come and kill you all.You died.Try again.")
+    end6 = input("The prisioner says that we have to explode this wall with this explosive he has.Do you trust him or do you contine down the passage")
+print("The ghost hear you lighting it.You run down the passage to meet some more prisioners.You now have a choice.A.Throw it at the prision cell or B At the ghost.But thats a choice for next time in... Text Adventure!!!For now bye!!!!!!")
+
+
+
